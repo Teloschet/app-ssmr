@@ -23,6 +23,15 @@ class Header extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
+                Container(
+                  margin: EdgeInsets.only(
+                    top: 0,
+                  ),
+                  child: Image.asset('images/logo.png'),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 5),
+                ),
                 Text(
                   '8ª Região Militar',
                   style: TextStyle(

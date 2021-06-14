@@ -1,5 +1,3 @@
-import 'dart:js';
-
 import 'package:flutter/material.dart';
 import 'package:ssmr/constants.dart';
 
@@ -46,26 +44,177 @@ class Body extends StatelessWidget {
                   ),
                 ),
                 child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    Container(
-                      height: 54,
-                      width: 132,
-                      margin: EdgeInsets.only(
-                        top: 0,
-                        left: 30,
-                      ),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                        boxShadow: [
-                          BoxShadow(
-                            offset: Offset(0, 10),
-                            blurRadius: 50,
-                            color: kPrimaryColor.withOpacity(0.23),
+                    Column(
+                      children: <Widget>[
+                        Container(
+                          margin: EdgeInsets.only(
+                            top: 30,
                           ),
-                        ],
-                      ),
+                          width: 145,
+                          height: 84,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          child: Image.asset('images/PDF-Viewer-icon.png'),
+                        ),
+                        Container(
+                          margin: EdgeInsets.only(
+                            top: 30,
+                          ),
+                          width: 145,
+                          height: 84,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          child: Image.asset('images/folder-contract-icon.png'),
+                        ),
+                        Container(
+                          margin: EdgeInsets.only(
+                            top: 30,
+                          ),
+                          width: 145,
+                          height: 84,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          child: Image.asset('images/Document-Copy-icon.png'),
+                        ),
+                        Container(
+                          margin: EdgeInsets.only(
+                            top: 30,
+                          ),
+                          width: 145,
+                          height: 84,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          child: Image.asset('images/archive-icon.png'),
+                        ),
+                        Container(
+                          margin: EdgeInsets.only(
+                            top: 30,
+                          ),
+                          width: 145,
+                          height: 84,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                        ),
+                        Container(
+                          margin: EdgeInsets.only(
+                            top: 30,
+                          ),
+                          width: 145,
+                          height: 84,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                        ),
+                        Container(
+                          margin: EdgeInsets.only(
+                            top: 30,
+                          ),
+                          width: 145,
+                          height: 84,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                        ),
+                      ],
+                    ),
+                    Column(
+                      children: <Widget>[
+                        Container(
+                          margin: EdgeInsets.only(
+                            top: 30,
+                          ),
+                          width: 145,
+                          height: 84,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          child: Image.asset('images/logo-sm.png'),
+                        ),
+                        Container(
+                          margin: EdgeInsets.only(
+                            top: 30,
+                          ),
+                          width: 145,
+                          height: 84,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          child: Image.asset('images/organograma.png'),
+                        ),
+                        Container(
+                          margin: EdgeInsets.only(
+                            top: 30,
+                          ),
+                          width: 145,
+                          height: 84,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          child: Image.asset('images/INFORMATIVOS.png'),
+                        ),
+                        Container(
+                          margin: EdgeInsets.only(
+                            top: 30,
+                          ),
+                          width: 145,
+                          height: 84,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          child: Image.asset('images/logo.png'),
+                        ),
+                        Container(
+                          margin: EdgeInsets.only(
+                            top: 30,
+                          ),
+                          width: 145,
+                          height: 84,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                        ),
+                        Container(
+                          margin: EdgeInsets.only(
+                            top: 30,
+                          ),
+                          width: 145,
+                          height: 84,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                        ),
+                        Container(
+                          margin: EdgeInsets.only(
+                            top: 30,
+                          ),
+                          width: 145,
+                          height: 84,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),
