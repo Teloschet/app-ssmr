@@ -179,7 +179,7 @@ class Body extends StatelessWidget {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(5),
                           ),
-                          child: Image.asset('images/logo.png'),
+                          child: Image.asset('images/8RM_3.png'),
                         ),
                         Container(
                           margin: EdgeInsets.only(
