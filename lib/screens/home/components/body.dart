@@ -15,6 +15,9 @@ class Body extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 5),
               ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 2),
+              ),
               Container(
                 margin: EdgeInsets.only(
                   left: 30,
