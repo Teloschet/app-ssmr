@@ -225,6 +225,26 @@ class Body extends StatelessWidget {
                   ],
                 ),
               ),
+              Container(
+                height: 40,
+                width: MediaQuery.of(context).size.width,
+                decoration: BoxDecoration(
+                  color: kSecondColor,
+                  borderRadius: BorderRadius.only(
+                    bottomLeft: Radius.circular(36),
+                    bottomRight: Radius.circular(36),
+                  ),
+                ),
+                child: Text(
+                  'Desenvolvido por SD Saleiro - SSMR/8',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w300,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
             ],
           ),
         ],
