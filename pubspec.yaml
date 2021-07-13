@@ -56,6 +56,13 @@ flutter:
   - images/organograma.png
   - images/folder-contract-icon.png
   - images/search.png
+  - images/AGENDA.gif
+  - images/CALENDARIO.gif
+  - images/GCALC.gif
+  - images/SAG.gif
+  - images/SISBOL.gif
+  - images/SPED.gif
+  - images/WEBMAIL.gif
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

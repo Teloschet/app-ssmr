@@ -106,6 +106,7 @@ class Body extends StatelessWidget {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(5),
                           ),
+                          child: Image.asset('images/SPED.gif'),
                         ),
                         Container(
                           margin: EdgeInsets.only(
@@ -117,6 +118,7 @@ class Body extends StatelessWidget {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(5),
                           ),
+                          child: Image.asset('images/SISBOL.gif'),
                         ),
                         Container(
                           margin: EdgeInsets.only(
@@ -128,6 +130,7 @@ class Body extends StatelessWidget {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(5),
                           ),
+                          child: Image.asset('images/SAG.gif'),
                         ),
                       ],
                     ),
@@ -191,6 +194,7 @@ class Body extends StatelessWidget {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(5),
                           ),
+                          child: Image.asset('images/AGENDA.gif'),
                         ),
                         Container(
                           margin: EdgeInsets.only(
@@ -202,6 +206,7 @@ class Body extends StatelessWidget {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(5),
                           ),
+                          child: Image.asset('images/CALENDARIO.gif'),
                         ),
                         Container(
                           margin: EdgeInsets.only(
@@ -213,6 +218,7 @@ class Body extends StatelessWidget {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(5),
                           ),
+                          child: Image.asset('images/GCALC.gif'),
                         ),
                       ],
                     ),
